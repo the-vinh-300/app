@@ -4,6 +4,7 @@ import 'package:demo_flutter/Screens/Login/login_screen.dart';
 import 'package:demo_flutter/Screens/Register/register_screen.dart';
 import 'package:demo_flutter/Screens/welcome.dart';
 import 'package:demo_flutter/Screens/welcome.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -45,14 +46,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    // return Scaffold(
-    //   appBar: AppBar(
-    //     title: Text(widget.title),
-    //   ),
-    //   body: Center(
-    //     child: Column(),
-    //   ),
-    // );
     return const WellcomeScreen();
   }
 }

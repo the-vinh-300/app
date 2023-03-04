@@ -147,13 +147,13 @@ class _ProfileCustomState extends State<ProfileCustom> {
           ),
           ListTile(
             onTap: () {
-              showDialog(
-                  context: context,
-                  builder: (BuildContext context) {
-                    return const AlertDialog(
-                      content: Text('Tính năng đang được phát triển'),
-                    );
-                  });
+              // showDialog(
+              //     context: context,
+              //     builder: (BuildContext context) {
+              //       return const AlertDialog(
+              //         content: Text('Tính năng đang được phát triển'),
+              //       );
+              //     });
             },
             leading: const Icon(
               Icons.email_outlined,
@@ -168,13 +168,13 @@ class _ProfileCustomState extends State<ProfileCustom> {
 
           ListTile(
             onTap: () {
-              showDialog(
-                  context: context,
-                  builder: (BuildContext context) {
-                    return const AlertDialog(
-                      content: Text('Tính năng đang được phát triển'),
-                    );
-                  });
+              // showDialog(
+              //     context: context,
+              //     builder: (BuildContext context) {
+              //       return const AlertDialog(
+              //         content: Text('Tính năng đang được phát triển'),
+              //       );
+              //     });
             },
             leading: const Icon(
               Icons.password_outlined,

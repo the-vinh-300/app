@@ -14,65 +14,6 @@ import 'package:flutter/src/widgets/framework.dart';
 
 import '../../Component/var.dart';
 
-// class IndexScreen extends StatelessWidget {
-//   IndexScreen({super.key});
-//   final User? user = Login().currentUser;
-
-//   Future<void> signOut() async {
-//     await Login().signOut();
-//   }
-
-//   Widget _title() {
-//     return const Text('data');
-//   }
-
-//   Widget _userUid() {
-//     return Text(user?.email ?? 'User email');
-//   }
-
-//   Widget signOutButton() {
-//     return ElevatedButton(
-//         onPressed: (() {
-//           signOut;
-//         }),
-//         child: const Text('Sign Out'));
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       color: Colors.blue,
-//       child: signOutButton(),
-//     );
-//   }
-// }
-
-// class ItemInc {
-//   List<String> item = [
-//     'Cho thuê',
-//     'Quyên góp',
-//     'Tiền lương',
-//     'Hoàn tiền',
-//     'Bán hàng',
-//     'Giải thưởng',
-//     'Khác'
-//   ];
-//   List<Image> image = [
-//     Image.asset('name'),
-//     Image.asset('name'),
-//     Image.asset('name'),
-//     Image.asset('name'),
-//     Image.asset('name'),
-//     Image.asset('name'),
-//   ];
-//   ItemInc(this.item, this.image);
-// }
-
-// class ItemSpe {
-//   String? label;
-//   Image? image;
-// }
-
 class IndexScreen extends StatefulWidget {
   const IndexScreen({super.key});
 
