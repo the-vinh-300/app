@@ -86,7 +86,7 @@ class _ProfileCustomState extends State<ProfileCustom> {
             height: 50,
           ),
           const Text(
-            'Chứ năng',
+            'Chức năng',
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
           ),
           const Divider(
